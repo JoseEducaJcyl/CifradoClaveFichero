@@ -22,8 +22,6 @@ public class Main {
     /**
      * Método que lee el archivo "fichero.txt" y extrae el último carácter de cada línea
      * para construir una clave. La clave tendrá un máximo de 10 caracteres.
-     * 
-     * @param clave ArrayList donde se almacenarán los caracteres de la clave
      */
     public static void cargarDatos(ArrayList<Character> clave) {
         // Try-with-resources para asegurar que el archivo se cierra correctamente
@@ -59,8 +57,6 @@ public class Main {
 
     /**
      * Método que guarda la clave generada en un archivo de texto llamado "clave_cifrada.txt"
-     * 
-     * @param clave ArrayList con los caracteres que forman la clave a guardar
      */
     public static void guardarDatos(ArrayList<Character> clave) {
         // Try-with-resources para escribir en el archivo
